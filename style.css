@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: century;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/michael-fousert-lE5-z4nTCTQ-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff ;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 55px;
+}
+
+.title h3{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.title h4{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+.sub-menu{
+    display: none;
+    top:5%;
+    position: relative;
+}
+.sub-menu ul{
+    position: absolute;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+.main ul li:hover .sub-menu ul li{
+    width:75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+.P{
+    color: #fff;
+}
